@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited - Coding School by HACA</title>
+    <link rel="icon" type="image/png" href="photo_6075535886973517540_y.jpg">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fdf6f0;
+            color: #333;
+            text-align: center;
+        }
+        .card {
+            margin: 15px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .card img {
+            max-width: 70%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .card h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #000000;
+            font-family:sans-serif;
+        }
+        .card p {
+            font-size: 1.2rem;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background: #0ca331;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #147914;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="Invitation Poster (4).png" alt="Program Poster">
+        <h1>YOU ARE INVITED</h1>
+        <p>Join us to celebrate our new milestone!</p>
+        <button onclick="viewDetails()">View Details</button>
+    </div>
+    <script>
+        function viewDetails() {
+            // Navigate to the details page
+            window.location.href = "details.html";
+        }
+    </script>
+</body>
+</html>
